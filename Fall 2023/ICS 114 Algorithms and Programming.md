@@ -95,7 +95,8 @@ if(x > 10) {
 
 
 ### Loops or Repetition
-Formal repetition construct implemented in most programming languages. In general there are three main types of loops.
+- Formal repetition construct implemented in most programming languages. In general there are three main types of loops.
+- Loops can be have loops inside them an when they do they are known as nested loops and the inside loop is usually done OUTSIDE X INSIDE times. So a loop that iterates 5 times with a nested loop that iterates 3 times, the internal loop would iterate 15 times.
 
 1) For loop
 	- Also known as **definite** or **counted loops**, these loops are **pretested**.
@@ -289,3 +290,5 @@ public static int biggest (int value1, int value2) {
 	}
 }
 ```
+## Overloaded Operators
+- Certain operators can be overloaded by having multiple meanings in a language, there are many examples of this. Such as the addition operator acting as both concatenation and as addition, these are based on context and largely depend on what you variables you are dealing with.
