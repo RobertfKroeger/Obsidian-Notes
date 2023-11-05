@@ -224,6 +224,7 @@ final int JAVA_FINAL_EXAMPLE = 100;
 - Errors in Java are called **Exceptions**
 
 ## Arrays
+- Array can also be initialized in a parallel fashion for data that is related, they must be the same size as in their length must be the same.
 - Array size will generally be declared with a constant value with the final attribute
 - The purpose of arrays is to store and reference values, when you want to access data more than once.
 ### Array Declaration
