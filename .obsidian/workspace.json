@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "66becbb2afe5fc4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b83993d22246798f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe60ee3f7982dcc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "278dbbeb59f7ff9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b282580e1179a4c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94d01ec5a15c6036",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1990f78eb8f116c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": " ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d1b7eab7503f247b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dbd333608fcbedaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcb918947e6bdd0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5f398c7e7211845",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "62f327e0e859685d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "12967aaa7bb883cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2ce942efcac36295",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md"
+              }
+            }
+          },
+          {
+            "id": "78f2175f4480b962",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 525.6,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "94d01ec5a15c6036",
+  "lastOpenFiles": [
+    "Fall 2023/ICS 114 Algorithms and Programming.md",
+    "README.md",
+    "Fall 2023/ICS 110 Computer Technology Essentials.md",
+    "Fall 2023/ICS 113 OS and Architecture.md",
+    "Fall 2023/ICS 118 Web Fundamentals.md",
+    "SQL Knowledge Base.md",
+    "Top-down design and Stepwise Refinement.md",
+    "Untitled.canvas",
+    "Fall 2023/ICS 114 Algorithms and Programming 1.md",
+    "Untitled.md",
+    "Untitled 1.canvas",
+    "Fall 2023",
+    "114 knowledge base"
+  ]
+}
