@@ -279,5 +279,12 @@ for(int number: numbers) {
 	3) The parameters of the method
 	4) The action the method takes
 ``` java
-public static int biggest (int value1, int value2)
+public static int biggest (int value1, int value2) {
+	System.out.print("This method will find the biggest of two values provided");
+	if(value1 > value2) {
+		return value1;
+	} else {
+		return value2;
+	}
+}
 ```
