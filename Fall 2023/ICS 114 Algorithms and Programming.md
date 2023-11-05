@@ -272,3 +272,12 @@ for(int number: numbers) {
 - Reference variables contain addresses to the object that they are referencing, when you reference it you are accessing it's address in main memory.
 - In other languages reference variables are referred to as pointers.
 
+## Writing Methods
+- When writing methods certain things are important to consider
+	1) The name of the method, pick something meaningful.
+	2) The return type of the method
+	3) The parameters of the method
+	4) The action the method takes
+``` java
+public static int biggest (int value1, int value2)
+```
