@@ -15,7 +15,7 @@
               "state": {
                 "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -158,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94d01ec5a15c6036",
+  "active": "fe60ee3f7982dcc2",
   "lastOpenFiles": [
     "Fall 2023/ICS 114 Algorithms and Programming.md",
     "README.md",
