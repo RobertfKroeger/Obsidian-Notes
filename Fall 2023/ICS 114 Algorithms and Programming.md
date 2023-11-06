@@ -1,4 +1,4 @@
-Knowledge Base
+# Knowledge Base
 ## Algorithms
 An algorithm is the solution to a specific problem with these 4 characteristics:
 1) Be Unambiguous
@@ -293,7 +293,7 @@ for(int number: numbers) {
 - When a method is called there are two possibilities:
 	- either the method does not return any values, and is declared void in it's definition
 	- or a method returns values and must be used as part of an assignment statement to pass those values to another variable. 
-## Writing Methods
+### Writing Methods
 - When writing methods certain things are important to consider
 	1) The name of the method, pick something meaningful.
 	2) The return type of the method
