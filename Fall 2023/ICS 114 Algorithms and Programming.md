@@ -313,12 +313,21 @@ public static int biggest (int value1, int value2) {
 ```
 - Formal Parameters are created when a method is defined.
 - Actual Parameters are used when the method is called for use.
+- Specifications for methods should be read carefully
 
 ### Method Overloading
-Method overloading is similar to Operator o
+- Method overloading is similar to Operator overloading in which a method has multiple variations that can be passed to it. The method can be overloaded if the variables are either different in either type or number of variables.
+- Just making the return type different does not count when method overloading the variable passed to the method must either be different or more variables.
 
 ## Overloaded Operators
 - Certain operators can be overloaded by having multiple meanings in a language, there are many examples of this. Such as the addition operator acting as both concatenation and as addition, these are based on context and largely depend on what you variables you are dealing with.
 
 ## Packages
 - Packages are groups of classes that can be imported for use by the programmer.
+
+## main method traits
+The main method can be overloaded, and can have arguments sent to it via the command line. Overloading main is not commonly used, but passing arguments to the main methods is common when dealing with files.
+## Parameter Passing
+- Parameters in Java are passed by a 'Pass my Value' structure.
+- It is easy to think of this as Java making a copy of the actual parameters use by the method.
+- Generally the value passed to a method is not changed when it is passed to the method.
