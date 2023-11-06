@@ -281,6 +281,18 @@ for(int number: numbers) {
 		- Provide a Header/Signature for the method
 		- A method Body which will be executed when the method is called.
 	2) We then use the Signature of the method to Call or Invoke the method.
+- ### Method Definition
+	- The Method header contains 5 separate parts:
+		1) The visibility of the method: These can be Public, Private, or Protected.
+		2) Static: this is optional, static methods belong to a class and are invoked without an object.
+		3) The return type: It can return a value or not, in this case void is used. If there is a return type, there must be a return statement somewhere in the body of the method.
+		4) The name of the method which is the same as the naming convention for other identifiers or variable which is camelCase.
+		5) The parameter list is the final part of a method and is the parameters that are passed to a method when it is called, that are used when it is called. Then formal parameters require both a type and a name.
+	- The method body contains the logic that the methods uses.
+### Calling Methods
+- When a method is called there are two possibilities:
+	- either the method does not return any values, and is declared void in it's definition
+	- or a method returns values and must be used as part of an assignment statement to pass those values to another variable. 
 ## Writing Methods
 - When writing methods certain things are important to consider
 	1) The name of the method, pick something meaningful.
@@ -297,5 +309,10 @@ public static int biggest (int value1, int value2) {
 	}
 }
 ```
+- Formal Parameters are created when a method is defined.
+- Actual Parameters are used when the method is called for use.
 ## Overloaded Operators
 - Certain operators can be overloaded by having multiple meanings in a language, there are many examples of this. Such as the addition operator acting as both concatenation and as addition, these are based on context and largely depend on what you variables you are dealing with.
+
+## Packages
+- Packages are groups of classes that can be imported for use by the programmer.
