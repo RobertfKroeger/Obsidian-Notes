@@ -325,9 +325,9 @@ public static int biggest (int value1, int value2) {
 ## Packages
 - Packages are groups of classes that can be imported for use by the programmer.
 
-## main method traits
+## main() method traits
 The main method can be overloaded, and can have arguments sent to it via the command line. Overloading main is not commonly used, but passing arguments to the main methods is common when dealing with files.
 ## Parameter Passing
 - Parameters in Java are passed by a 'Pass my Value' structure.
 - It is easy to think of this as Java making a copy of the actual parameters use by the method.
-- Generally the value passed to a method is not changed when it is passed to the method.
+- Generally the value passed to a method is not changed when it is passed to the method  
