@@ -274,6 +274,13 @@ for(int number: numbers) {
 - Reference variables contain addresses to the object that they are referencing, when you reference it you are accessing it's address in main memory.
 - In other languages reference variables are referred to as pointers.
 
+## Methods
+- A method is a named block of statements, when we break down a problem with problem decomposition we end up with many smaller modules and these are called Methods in Java and Functions in C based languages.
+- In order to use a method we need to:
+	1) Define the method:
+		- Provide a Header/Signature for the method
+		- A method Body which will be executed when the method is called.
+	2) We then use the Signature of the method to Call or Invoke the method.
 ## Writing Methods
 - When writing methods certain things are important to consider
 	1) The name of the method, pick something meaningful.
