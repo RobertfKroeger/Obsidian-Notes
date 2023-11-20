@@ -268,7 +268,7 @@ for(int number: numbers) {
 	System.out.print("This represents the element of the array ->" + number);
 }
 ```
-- Enhanced for loops are simply to traverse the loops and are not to change any values.
+- Enhanced for loops are simply to traverse the arrays and are not to change any values.
 - They are also only designed to traverse every element from beginning to end.
 ## Reference variables
 - Reference variables contain addresses to the object that they are referencing, when you reference it you are accessing it's address in main memory.
