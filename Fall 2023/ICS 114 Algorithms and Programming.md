@@ -156,6 +156,32 @@ do {
 - Java follows a syntax that utilizes semicolons to mark the end of code blocks.
 ## High-level programming languages
 ## OOP
+	
+### class
+### instance variables
+### getters
+### setters
+### instance methods
+### this
+### toString()
+### abstraction
+### class methods
+### class variables
+### instance
+### inheritance
+### null
+### encapsulation
+### encapsulation
+### polymorphism
+### overriding
+### overloading
+### accessors
+### mutators
+### constructors
+### messages
+### receivers
+### attributes/members
+### extends
 ## Java Types
 ### Primitive Data Types
 - Boolean: a Boolean variable is one that logically equates to true or false.
