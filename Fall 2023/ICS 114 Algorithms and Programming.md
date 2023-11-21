@@ -156,7 +156,18 @@ do {
 - Java follows a syntax that utilizes semicolons to mark the end of code blocks.
 ## High-level programming languages
 ## OOP
-	
+- Objects consist of:
+	- Attributes (Characteristics) - instance variables:
+		- Declared private by convention, which limits the ability to change them to getter/setters.
+		- Considered to be good programming practice to hide. "Information hiding"
+	- Methods:
+		1) Constructors:
+			- Special Methods:
+				- same name as the class
+				- no return type, no void
+				- frequently overloaded
+				- invoked when an object is created (keyword: new)
+		2) 
 ### class
 ### instance variables
 ### getters
@@ -178,6 +189,7 @@ do {
 ### accessors
 ### mutators
 ### constructors
+- The constructor is the method that creates and initializes an object with it's attributes.
 ### messages
 ### receivers
 ### attributes/members
