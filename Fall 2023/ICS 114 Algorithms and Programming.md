@@ -167,7 +167,14 @@ do {
 				- no return type, no void
 				- frequently overloaded
 				- invoked when an object is created (keyword: new)
-		2) 
+		2) Instance methods
+			- require an object to be invoked (called)
+			{reference variable to an object}.{instance method(actual parameters)}
+			- Do not use keyword static in their signatures.
+				Keyword static mean "belongs to the class"
+			- declared as public
+			- Getter/Setter methods
+				1) One of each for every attribute
 ### class
 ### instance variables
 ### getters
