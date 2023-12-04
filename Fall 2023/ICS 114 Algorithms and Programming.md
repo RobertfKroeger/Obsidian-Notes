@@ -183,12 +183,22 @@ do {
 	3) Methods that define the behavior of the object:
 		- Setters: are methods that allow the setting or updating of privates fields within a class. Generally, setters can validate the data provided to them.
 		- Getters: Methods that all the retrieval or access of the private fields in a class.
-		- Mutators:
-		- Accessors:
+		- Mutators: A method that changes the state of an object
+		- Accessors: A method used to access or retrieve the state of an object.
 	1) Constructors: The constructor is the method that creates and initializes an object with it's attributes. Can be overloaded to initialize objects in different ways.
 ### instance variables
-
+- Instance variables are variable declared within a class, but outside any method. Each object of the class has it's own copy of these variables.
+- These variables are accessible throughout the class, and are visible to all methods.
+- They exist for the lifetime of the object
+- Can be initialized during declaration or with a constructor, if they aren't, they are initialized to a default value.
 ### instance methods
+- Instance methods have access to and modify private instance variables.
+- They are called on Object with
+```java
+Object anObject = new Object();
+anObject.setObjectName = "Object";
+```
+
 ### this
 ### toString()
 ### abstraction
