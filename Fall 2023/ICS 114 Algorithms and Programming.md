@@ -175,14 +175,14 @@ do {
 			- declared as public
 			- Getter/Setter methods
 				1) One of each for every attribute
-### classes
+### Classes
 - A class is a "blueprint" from which individual objects are created. It is used to encapsulate data and methods together.
 - A class has a general structure that has 4 main parts:
 	1) A class declaration denoted by the keyword "class".
 	2) Attributes that store the state of the object.
 	3) Methods that define the behavior of the object:
-		- Setters:
-		- Getters:
+		- Setters: are methods that allow the setting or updating of privates fields within a class. Generally, setters can validate the data provided to them.
+		- Getters: Methods that all the retrieval or access of the private fields in a class.
 		- Mutators:
 		- Accessors:
 	1) Constructors: The constructor is the method that creates and initializes an object with it's attributes. Can be overloaded to initialize objects in different ways.
@@ -258,8 +258,6 @@ System.out.print("Notice how the String uses double quotes, whereas Char uses on
 ```
 
 ### Class Types / Reference Variables
-
-
 ## Initialization and Assignment
 Initialization and Assignment in Java takes the form of:
 
