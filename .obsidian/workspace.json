@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fall 2023/ICS 110 Computer Technology Essentials.md",
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fall 2023/ICS 110 Computer Technology Essentials.md",
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fall 2023/ICS 110 Computer Technology Essentials.md",
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fall 2023/ICS 110 Computer Technology Essentials.md"
+                "file": "Fall 2023/ICS 114 Algorithms and Programming.md"
               }
             }
           },
@@ -159,12 +159,12 @@
   },
   "active": "fe60ee3f7982dcc2",
   "lastOpenFiles": [
+    "SQL Knowledge Base.md",
+    "Fall 2023/ICS 110 Computer Technology Essentials.md",
     "Fall 2023/ICS 113 OS and Architecture.md",
     "Fall 2023/ICS 118 Web Fundamentals.md",
     "README.md",
-    "SQL Knowledge Base.md",
     "Fall 2023/ICS 114 Algorithms and Programming.md",
-    "Fall 2023/ICS 110 Computer Technology Essentials.md",
     "Top-down design and Stepwise Refinement.md",
     "Untitled.canvas",
     "Fall 2023/ICS 114 Algorithms and Programming 1.md",
