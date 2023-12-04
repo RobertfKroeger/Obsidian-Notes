@@ -175,32 +175,43 @@ do {
 			- declared as public
 			- Getter/Setter methods
 				1) One of each for every attribute
-### class
+### classes
+- A class is a "blueprint" from which individual objects are created. It is used to encapsulate data and methods together.
+- A class has a general structure that has 4 main parts:
+	1) A class declaration denoted by the keyword "class".
+	2) Attributes that store the state of the object.
+	3) Methods that define the behavior of the object:
+		- Setters:
+		- Getters:
+		- Mutators:
+		- Accessors:
+	1) Constructors: The constructor is the method that creates and initializes an object with it's attributes. Can be overloaded to initialize objects in different ways.
 ### instance variables
-### getters
-### setters
+
 ### instance methods
 ### this
 ### toString()
 ### abstraction
+- Hiding complex implementation details and showing only the necessary features.
 ### class methods
 ### class variables
 ### instance
 ### inheritance
+- A class can inherit properties and methods from another class.
+#### Extends:
+- The keyword "extends" is used to denote a when a class inherits from another class.
 ### null
 ### encapsulation
-### encapsulation
+- The concept of enclosing the variable and the methods together in a single unit known as a class in Java is Encapsulation
 ### polymorphism
+- The ability to take on many forms - referring to methods that can be used in different ways based on the object they are called on.
 ### overriding
 ### overloading
-### accessors
-### mutators
-### constructors
-- The constructor is the method that creates and initializes an object with it's attributes.
+
 ### messages
 ### receivers
 ### attributes/members
-### extends
+
 ## Java Types
 ### Primitive Data Types
 - Boolean: a Boolean variable is one that logically equates to true or false.
