@@ -198,8 +198,9 @@ do {
 Object anObject = new Object();
 anObject.setObjectName = "Object";
 ```
-
 ### this
+- The "this" keyword is used within an instance method or constructor to refer to the current object.
+- 
 ### toString()
 ### abstraction
 - Hiding complex implementation details and showing only the necessary features.
