@@ -212,11 +212,18 @@ anObject.setObjectName = "Object";
 ### class variables
 - Class variables, also known as static variables, are variables that belong to the class as a whole rather than to individual instances of the class. They are shared among all instances of the class. This means that a single copy of the variable exists and is shared by all instances of the class, and any modifications to the variable are visible to all other instances. Let's explore the characteristics, usage, and best practices of class variables in more detail.
 ### instance variables
+- Instance variables are unique to each instance of a class, modify them does not change the variables in another instance.
+- They are declared within a class, but outside of any methods.
+- The scope of an instance variable is within the whole class.
+- They are used to store data that is specific to the object.
 ### inheritance
 - A class can inherit properties and methods from another class.
 #### Extends:
 - The keyword "extends" is used to denote a when a class inherits from another class.
 ### null
+- A special literal in the language and is the default value for object references. `null` is only applicable to object as it represents the absence of an address to an object.
+- Uninitialized objects are are always null.
+
 ### encapsulation
 - The concept of enclosing the variable and the methods together in a single unit known as a class in Java is Encapsulation
 ### polymorphism
