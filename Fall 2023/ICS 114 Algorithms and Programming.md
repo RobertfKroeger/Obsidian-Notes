@@ -99,7 +99,7 @@ if(x > 10) {
 - Loops can be have loops inside them an when they do they are known as nested loops and the inside loop is usually done OUTSIDE X INSIDE times. So a loop that iterates 5 times with a nested loop that iterates 3 times, the internal loop would iterate 15 times.
 
 1) For loop
-	- Also known as **definite** or **counted loops**, these loops are **pretested**.
+	- Also known as **definite** or **counted loops**, these loops are **pretested**
 	- executes a pre-defined amount of times before concluding.
 	- we know how many times the loop will execute before it is executed.
 	- may be executed 0 or more times
@@ -178,7 +178,7 @@ do {
 ### Classes
 - A class is a "blueprint" from which individual objects are created. It is used to encapsulate data and methods together.
 - A class has a general structure that has 4 main parts:
-	1) A class declaration denoted by the keyword "class".
+	1) A class declaration denoted by the keyword `class`.
 	2) Attributes that store the state of the object.
 	3) Methods that define the behavior of the object:
 		- Setters: are methods that allow the setting or updating of privates fields within a class. Generally, setters can validate the data provided to them.
@@ -199,9 +199,10 @@ Object anObject = new Object();
 anObject.setObjectName = "Object";
 ```
 ### this
-- The "this" keyword is used within an instance method or constructor to refer to the current object.
-- 
+- The `this` keyword is used within an instance method or constructor to refer to the current object.
 ### toString()
+- Overriding `toString()`
+- It's common practice to override the `toString()` method in your classes to return a more informative, class-specific string representation of an object. When overriding `toString()`, you should return a string that concisely summarizes the object's state.
 ### abstraction
 - Hiding complex implementation details and showing only the necessary features.
 ### class methods
