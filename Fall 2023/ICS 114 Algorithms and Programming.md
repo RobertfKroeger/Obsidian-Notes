@@ -206,8 +206,12 @@ anObject.setObjectName = "Object";
 ### abstraction
 - Hiding complex implementation details and showing only the necessary features.
 ### class methods
+- Class methods are declared using keyword `static`. This indicates that the method is associated with the class itself, not with any particular instance of an object.
+- Since class methods are associated with the class, and not with any instance. They cannot use the keyword `this`.
+- Class methods can only directly access other static members of the class. They cannot access non-static members directly.
 ### class variables
-### instance
+- Class variables, also known as static variables, are variables that belong to the class as a whole rather than to individual instances of the class. They are shared among all instances of the class. This means that a single copy of the variable exists and is shared by all instances of the class, and any modifications to the variable are visible to all other instances. Let's explore the characteristics, usage, and best practices of class variables in more detail.
+### instance variables
 ### inheritance
 - A class can inherit properties and methods from another class.
 #### Extends:
