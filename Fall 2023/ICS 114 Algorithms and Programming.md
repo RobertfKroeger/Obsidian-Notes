@@ -150,7 +150,31 @@ do {
 	incrementVariable++;
 } while (incrementVariable < 10);
 ```
-
+## Rewriting loops
+### `for`,`while`, and `do...while`
+`for` loop
+``` java
+for (int i = 0; i < 5; i++) { //This is all three in one!
+    // This is the Loop Body!
+}
+```
+Converted to a `while`:
+``` java
+int i = 0;//This is the initialization!
+while (i < 5) { //This is the conditional!
+    // This is the Loop Body!
+    i++; // This is the increment!
+```
+Converted to a `do...while`:
+``` java
+int i = 0; //This is the initialization!
+do {
+    // This is the Loop Body!
+    i++; // This is the increment!
+} while (i < 5); //This is the conditional
+```
+This Syntax is exactly the same in reverse, plug and play.
+Be sure to worry about initial values as they may be different because `do...while` is a post tested loop!
 ## Syntax 
 - The rules that define the combinations of symbols that are considered to be correctly structured statements or expression in that language.
 - Java follows a syntax that utilizes semicolons to mark the end of code blocks.
@@ -288,7 +312,7 @@ Initialization and Assignment in Java takes the form of:
 dataType variable = value;
 ```
 
-Where dataType represents a type, primitive or reference, variable is the name of the assigned variable, and value is the value assigned to variable. 
+Where `dataType` represents a type, primitive or reference, variable is the name of the assigned variable, and value is the value assigned to variable. 
 
 ### Java Data Types
 - Data types can be declared as a **constant** and use a Capital case with underscores to separate.
@@ -298,7 +322,7 @@ final int JAVA_FINAL_EXAMPLE = 100;
 ## Type Conversion and Casting
 - Type conversion in Java is handled as a Widening or Shortening of size, where widening is done for free my the compiler and shortening will throw an error so as to not lose precision without the programmer knowing.
 ## Error Handling
-- Error handling in Java is handled by Try and Catch statements.
+- Error handling in Java is handled by `try...catch` statements.
 - Errors in Java are called **Exceptions**
 
 ## Arrays
