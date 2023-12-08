@@ -350,10 +350,29 @@ number[0] = 7;
 System.out.print("Position 0 is assigned the value of 7");
 ```
 2) Initializing arrays with a loop:
+Single-dimension:
 ``` java
+int[] arrayNums = {1, 2, 3, 4, 5}; 
+
+for (int i = 0; i < arrayNums.length; i++) { 
+	System.out.println(arrayNums[i]);
+}
+```
+2-d Array:
+```java
+int[][] arrayNum2D = {
+    {1, 2, 3, 4},    
+    {5, 6, 7, 8},    
+    {9, 10, 11, 12}
+};
+
+for (int i = 0; i < arrayNum2D.length; i++) { // Loop through rows
+    for (int j = 0; j < arrayNum2D[i].length; j++) { // Loop through columns
+        System.out.println(arrayNum2D[i][j]); // Access each element
+    }
+}
 
 ```
-
 ## Array Traversal
 - Traversing an array requires a definite loop because we are aware of how many elements are in the loop
 - This method uses the classic for loop:
