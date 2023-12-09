@@ -254,10 +254,76 @@ anObject.setObjectName = "Object";
 - The ability to take on many forms - referring to methods that can be used in different ways based on the object they are called on.
 ### overriding
 
-### overloading
+### method overloading
+- Method overload in Java is when you have multiple methods for a single operation, but they vary in the actual parameters that are passed to them and the formal parameters when they are defined
+``` java
+    // Method 1: takes two integers and adds them
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Method 2: same name, takes three integers and adds them
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Method 3: same name, takes two doubles and adds them
+    public double add(double a, double b) {
+        return a + b;
+    }
+```
 
 ### messages
+- Messages in Java refer to the communication between objects, where one object sends a "message" to another object, generally in the form of a method call.
+``` java
+public class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public void sayHello() {
+        System.out.println(name + " says hello!");
+    }
+
+    public static void main(String[] args) {
+        Person alice = new Person("Alice");
+        Person bob = new Person("Bob");
+
+        // Alice and Bob are sending messages to each other
+        alice.sayHello(); // Alice says hello!
+        bob.sayHello();   // Bob says hello!
+    }
+}
+```
+In this example the `sayHello` method can be seen as the "message" the `Person` object can send.
 ### receivers
+- In Java the "receiver" refers to the object on which the a method is invoked. When you call a method, the receiver is the object that is executing the method or the object for which the method is called.
+- Methods in Java are typically called using the "dot notation"
+``` java
+object.method(); //object is the receiver.
+```
+- Static methods do not have a receiver in the traditional sense, as they are called on the class itself, not on an instance of the class.
+- The receiver provides the context for non-static method executions, determining which attributes and other methods can be accessed during the method's execution. So, when a method is called using the "dot notation", it specifies which objects attributes are accessed during the methods execution.
+``` java
+public class Car {
+    private String model;
+
+    public Car(String model) {
+        this.model = model;
+    }
+
+    public void displayModel() {
+        System.out.println("The model of the car is " + model);
+    }
+
+    public static void main(String[] args) {
+        Car myCar = new Car("");
+        myCar.displayModel(); // In this call, 'myCar' is the receiver.
+    }
+}
+```
 ### attributes/members
 
 ## Java Types
